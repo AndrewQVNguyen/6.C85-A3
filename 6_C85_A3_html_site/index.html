@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>A3: Covid Data Visualization Critique and Redesign</title>
+  <style>
+    :root {
+      --maxw: 900px;
+      --fg: #111;
+      --muted: #555;
+      --bg: #fff;
+      --border: #e5e5e5;
+    }
+    html, body { background: var(--bg); color: var(--fg); font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+    body { margin: 0; line-height: 1.55; }
+    main { max-width: var(--maxw); margin: 0 auto; padding: 32px 18px 64px; }
+    h1 { font-size: 2rem; margin: 0 0 6px; }
+    .meta { color: var(--muted); margin-bottom: 24px; }
+    h2 { margin-top: 34px; border-top: 1px solid var(--border); padding-top: 22px; }
+    h3 { margin-top: 26px; }
+    p { margin: 14px 0; }
+    figure { margin: 18px 0 24px; padding: 12px; border: 1px solid var(--border); border-radius: 12px; background: #fafafa; }
+    figure img { max-width: 100%; height: auto; display: block; margin: 0 auto; }
+    figcaption { margin-top: 10px; color: var(--muted); font-size: 0.95rem; }
+    ul, ol { margin: 10px 0 10px 22px; }
+    .cite { color: var(--muted); font-size: 0.95em; }
+    code, pre { background: #f6f6f6; border: 1px solid var(--border); border-radius: 8px; }
+    code { padding: 0 6px; }
+    pre { padding: 12px; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <main>
+    <p>
+<h1>A3: Covid Data Visualization Critique and Redesign</h1>
+<div class='meta'>
+  <div class='author'>Andrew Q. Nguyen</div>
+  <div class='date'>Febuary 27th 2026</div>
+</div>
+</p>
+
+<h2>Critique</h2>
+
+<figure id="fig:placeholder">
+  <img src="assets/Original Graphic.PNG" alt="Original Visualization"/>
+  <figcaption>Original Visualization</figcaption>
+</figure>
+
+<p>
+The graphic above visualizes the weekly number of new COVID cases in the US over a 2-year period from 2020 to 2022. The unorthodox is successful in many ways. Firstly, the “curled” nature of the data allows it to fit in a much smaller space than a more traditional linear graphic. The “curled” nature of the data also enables fast comparison of COVID data across years and the symmetric nature of data plotting. In addition, the novel, visually appealing design draws the reader's attention, and its clockwise orientation makes it intuitive to most readers. The design, however, falls short in several areas. First, the absence of radial axis tick marks makes it difficult to discern the magnitude of the number of cases each 7-day period actually sees. As a result, the = reader can only compare dates between periods visually rather than quantitatively. Additionally, it is difficult to determine when a 7-day period begins or ends, as the spiral line on which the data are plotted lacks tick marks for periods shorter than a month. Finally, although the graphic's general “gist” is easy to understand, people are not accustomed to seeing months represented in clock format. As a result, it may take some time for the reader to determine which months are which, especially since not all are labeled on the chart.
+As a result, the chart’s effectiveness depends on the narrative it seeks to convey and its purpose. If the purpose is to report the number of COVID cases observed, then it fails because the data are difficult to read. If the point is to show that COVID cases have spiked, then it succeeds, though there may be better ways of visualizing this. The charts made for this assignment were designed to attempt to address these shortcomings, while keeping many of their strengths.
+</p>
+
+<h2>Sketches of Alternative Designs</h2>
+<figure id="fig:placeholder">
+  <img src="assets/Sketches_Page_1.png" alt="Enter Caption"/>
+  <figcaption>Enter Caption</figcaption>
+</figure>
+
+<figure id="fig:placeholder">
+  <img src="assets/Sketches_Page_2.png" alt="Enter Caption"/>
+  <figcaption>Enter Caption</figcaption>
+</figure>
+
+<figure id="fig:placeholder">
+  <img src="assets/Sketches_Page_3.png" alt="Enter Caption"/>
+  <figcaption>Enter Caption</figcaption>
+</figure>
+
+<h2>Final Redesign</h2>
+<figure id="fig:placeholder">
+  <img src="assets/Covid_Cases_Visualized_V1.png" alt="Final Redesign"/>
+  <figcaption>Final Redesign</figcaption>
+</figure>
+
+<p>
+The purpose of this final redesigned chart was simple: to use the strengths of the initial visualization to communicate a similar narrative while enabling the reader to understand the data quantitatively, not just qualitatively. This new design sought to retain the original's visually appealing nature, using a multicolored area graph rather than a simple line graph to catch the reader’s eye. It retained the same symmetrical layout of the data to visualize the rise and fall of COVID cases as expansions and contractions, rather than a single line. The y-axis tick marks for the number of cases in the original design are improved by allowing the reader to determine quantitatively how many new cases occur at a given time. Additionally, there is more room to accommodate the overlap of additional information. In this example, we have information about the total amount of test cases (to show whether the rise of confirmed cases was due to an increase in the amount of tests or an increase in the percentage of cases that come back positive), as well as information about the number of deceased, however further applications may allow for comparisons between other nations as well.
+</p>
+
+<p>
+This design did have some tradeoffs, however. While more visually appealing than traditional methods, it lost some of the uniqueness of the previous design. Additionally, it loses the ability to rapidly compare the same month across years, though how this applies to a multi-year pandemic that doesn’t follow a yearly cycle is questionable. Additionally, the graphics' filled-area nature makes some data, such as the number of newly deceased cases, difficult to see.
+</p>
+  </main>
+</body>
+</html>
